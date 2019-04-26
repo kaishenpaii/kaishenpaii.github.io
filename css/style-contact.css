@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header a{
+  text-decoration: none;
+}
+
+.header{
+  margin: 0;
+  height: 15vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 30;
+  background-image: url(../images/header.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.ratings-icon{
+  margin: 35px 0 0 35px;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.ratings-icon:hover{
+  opacity: 1;
+}
+
+.header ul{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.h{
+  margin-left: 350px;
+  color: #b9b9b9;
+}
+
+.a{
+  margin-left: 120px;
+  padding-left: 40px;
+  color: #b9b9b9;
+  border-left: 2px solid #b9b9b9;
+}
+
+.c{
+  margin-left: 101px;
+  color: white;
+}
+
+.m{
+  margin-left: -95px;
+  padding-left: 40px;
+  color: #b9b9b9;
+  border-left: 2px solid #b9b9b9;
+}
+
+.header li{
+  list-style: none;
+  margin-top: 35px;
+  text-align: center;
+  position: absolute;
+  font-size: 25px;
+  font-family: Curlz MT;
+}
+
+.header li:hover{
+  color: white;
+}
+
+.contact-showcase{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-family: Candara;
+  font-weight: lighter;
+  text-align: center;
+  background-image: url(../images/contact-showcase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-showcase h1{
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+.contact1 ul{
+  margin-top: 80px;
+}
+
+.contact1 li{
+  font-size: 20px;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.contact1 a{
+  color: white;
+}
+
+.contact2 p{
+  margin: 40px 0 0 30px;
+}
+
+.contact3 ul{
+  font-size: 20px;
+  margin-top: 120px;
+}
+
+.contact3 li{
+  font-size: 20px;
+  list-style: none;
+}
+
+.footer{
+  height: 15vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-color: #161616;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.footer p{
+  color: white;
+  font-size: 15px;
+  font-family: Candara;
+  text-align: center;
+  padding: 27px 400px 0 0;
+}
+
+.sm-icons{
+  margin: 12px 0 0 20px;
+}
+
+.sm-icons img{
+  padding-right: 30px;
+}
+
+.sm-icons li{
+  color: white;
+  font-size: 12px;
+  font-family: Candara;
+  list-style: none;
+}
+
+.sm-icons a{
+  color: white;
+}
